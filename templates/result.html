@@ -1,0 +1,18 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colorized Image</title>
+    <style>
+        .colorized-image {
+            width: 100%; /* This will make the image responsive to the container width, you can set a fixed width if you prefer */
+            max-width: 600px; /* You can set a max-width if you want */
+            height: auto; /* This will maintain the aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <h1>Colorized Image</h1>
+    <img src="{{ image_url }}" alt="Colorized Image" class="colorized-image" />
+</body>
+</html>
